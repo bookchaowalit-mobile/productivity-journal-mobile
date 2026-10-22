@@ -8,7 +8,7 @@ Swift toolchain was available when this pass was made.
 
 ## Backlog
 
-- P0: Confirm the macOS CI job is green (`swift build` + `swift test`); fix any
+- P0 (done: CI green since 2026-10-01): Confirm the macOS CI job is green (`swift build` + `swift test`); fix any
   compile errors it reports first.
 - P1: Add an iOS simulator build to CI
   (`xcodebuild -scheme MindSpace -destination 'generic/platform=iOS Simulator' build`).
